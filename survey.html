@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<h1 id="title">
+</h1>
+<p id="description">COVID Screen Questionnaire</p>
+<form id="survey-form">
+
+<fieldset>
+  <label for="name" id="name-label">Name: <input type="text" id="name" name="name" placeholder="Enter your Name" required /></label>
+
+  </label>
+  <label for="email-label">Email: <input type="email" id="email" name="email" placeholder="username@domain.com" required /></label>
+
+  <label for="age" id="number-label">Age: <input type="number" id="age" name="age" placeholder="Enter Your Age"/></label>
+</fieldset>
+<fieldset>
+  <label for="vaccination-status">Are you vaccinated?
+    <select id="vaccination-status" name="vaccination-status">
+      <option disabled selected value>(select one)</option>
+      <option value="1">Yes</option>
+      <option value="2">No</option>
+    </select>
+  <label for="dropdown">What type of vaccine did you last receive?
+    <select id="dropdown" name="vaccine-type">
+      <option disabled selected value>(select one)</option>
+      <option value="1">Astra Zeneca</option>
+      <option value="2">Johnson & Johnson</option>
+      <option value="3">Moderna</option>
+      <option value="4">Novavax</option>
+      <option value="5">Pfizer</option>
+      <option value="6">Other</option>
+    </select>
+  </label>
+  <label for="vaccination-date">When was last time you received a vaccination shot?<input type="date"></label>
+</fieldset>
+<fieldset>
+  <label></label>
+  <label></label>
+  <label></label>
+</fieldset>
+
+
+
+</form>
+
+</html>
